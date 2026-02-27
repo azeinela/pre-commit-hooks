@@ -217,9 +217,12 @@
     description: Detect hardcoded secrets using Gitleaks
     entry: artifactory.adtran.com/docker/gitleaks/gitleaks:v8.24.0 dir --verbose --redact
     language: docker_image
+<<<<<<< Updated upstream
+=======
 -   id: detect-non-ascii-characters
     name: detect non-ascii characters
     description: detects non-ascii characters with support for multiple validation modes (balanced, visible-plus, ascii-only) and configurable byte ranges.
     entry: detect-non-ascii-characters
-    language: python
+    language: docker_image
     types: [text]
+>>>>>>> Stashed changes
